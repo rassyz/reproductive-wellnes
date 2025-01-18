@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <!-- Vendor CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/profile.css" rel="stylesheet" />
+  </head>
+  <body class="index-page">
+    <!-- navbar -->
+    <header id="header" class="header sticky-top">
+      <div class="branding d-flex align-items-center">
+        <div
+          class="container position-relative d-flex align-items-center justify-content-between"
+        >
+          <a href="home.html" class="logo d-flex align-items-center me-auto">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <h1 class="sitename">Reproductive Wellness</h1>
+          </a>
+
+          <a class="cta-btn">Hi! <span id="userName"></span></a>
+        </div>
+      </div>
+    </header>
+    <!-- /navbar -->
+    <section class="vh-100" style="background-color: #f4f5f7">
+      <div class="container py-1 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col col-lg-15 mb-4 mb-lg-0">
+            <div class="card mb-3" style="border-radius: 0.5rem">
+              <div class="row g-0">
+                <div
+                  class="col-md-4 gradient-custom text-center text-white"
+                  style="
+                    border-top-left-radius: 0.5rem;
+                    border-bottom-left-radius: 0.5rem;
+                  "
+                >
+                  <img
+                    src="assets/img/pp1.png"
+                    alt="Avatar"
+                    class="img-fluid my-5"
+                    style="width: 200px"
+                  />
+                  <h1 class="fw-bold"><span id="fullName"></span></h1>
+                  <p><span id="lastLogin"></span></p>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body p-4">
+                    <h2 class="fw-bold mb-3">Profil Pengguna</h2>
+                    <hr class="mt-0 mb-4" />
+                    <div class="row pt-1">
+                      <div class="col-6 mb-3">
+                        <h4 class="fw-bold">Email</h4>
+                        <p class="text-muted"><span id="userEmail"></span></p>
+                      </div>
+                      <div class="col-6 mb-3">
+                        <h4 class="fw-bold">Jenis Kelamin</h4>
+                        <p class="text-muted"><span id="userGender"></span></p>
+                      </div>
+                      <div class="col-6 mb-3">
+                        <h4 class="fw-bold">Tempat & Tanggal Lahir</h4>
+                        <p class="text-muted"><span id="userTtl"></span></p>
+                      </div>
+                      <div class="col-6 mb-3">
+                        <h4 class="fw-bold">Nomor Handphone</h4>
+                        <p class="text-muted"><span id="userNohp"></span></p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/home.js" defer type="module"></script>
+  </body>
+</html>

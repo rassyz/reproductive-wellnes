@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Reproductive Wellnes</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/login-img.png" rel="icon" />
+    <link href="assets/img/login-img.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/deteksi.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="starter-page-page">
+    <header id="header" class="header sticky-top">
+      <div class="branding d-flex align-items-center">
+        <div
+          class="container position-relative d-flex align-items-center justify-content-between"
+        >
+          <a href="home.html" class="logo d-flex align-items-center me-auto">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <h1 class="sitename">Reproductive Wellnes</h1>
+          </a>
+
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li>
+                <a href="home.html">Home<br /></a>
+              </li>
+              <li>
+                <a href="deteksi.html" class="active"
+                  >Deteksi Kesehatan Reproduksi</a
+                >
+              </li>
+              <li class="dropdown">
+                <a href="#"
+                  ><span>Sistem Reproduksi</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i
+                ></a>
+                <ul>
+                  <li><a href="female.html">Sistem Reproduksi Perempuan</a></li>
+                  <li><a href="male.html">Sistem Reproduksi Laki-laki</a></li>
+                </ul>
+              </li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+          <a class="cta-btn" href="profile.html"
+            >Hi! <span id="userName"></span
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <div class="container">
+        <div class="quiz-container" id="quiz">
+          <div class="quiz-header">
+            <h2>Risiko Deteksi Kesehatan Reproduksi</h2>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 0%"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div id="question-container">
+            <p class="question" id="question"></p>
+            <div class="options" id="options"></div>
+          </div>
+          <div class="quiz-footer">
+            <div class="timer" id="timer">Time: 30s</div>
+            <button class="btn btn-primary" id="next-btn">Next</button>
+          </div>
+        </div>
+      </div>
+      <!-- /Hero Section -->
+    </main>
+
+    <footer id="footer" class="footer light-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Reproductive Wellnes</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>
+                Jl. Citra Raya Boulevard No.01 BlokS No.25, Panongan, Kec.
+                Panongan
+              </p>
+              <p>Kabupaten Tangerang, Banten 15711</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+62 882 2563 3761</span>
+              </p>
+              <p>
+                <strong>Email:</strong> <span>sikkelompokber5@gmail.com</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li>
+                <a href="deteksi.html">Risiko Deteksi Kesehatan Reproduksi</a>
+              </li>
+              <li><a href="female.html">Sistem Reproduksi Perempuan</a></li>
+              <li><a href="#">Sistem Reproduksi Laki-laki</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Risiko Deteksi Kesehatan Reproduksi</a></li>
+              <li><a href="#">Sistem Reproduksi Perempuan</a></li>
+              <li><a href="#">Sistem Reproduksi Laki-laki</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright 2025</span>
+          <strong class="px-1 sitename">Reproductive Wellnes</strong>
+          <span>All Rights Reserved</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/deteksi.js" type="module"></script>
+    <script src="assets/js/home.js" type="module"></script>
+  </body>
+</html>
